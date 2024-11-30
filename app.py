@@ -24,4 +24,4 @@ async def resolve_coref_issues(coref_resolve_input: CorefResolverInput = Body(..
 
 if __name__ == "__main__":
     app.include_router(base_router)
-    uvicorn.run(app, port=5002)
+    uvicorn.run(app, port=5000)
